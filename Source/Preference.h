@@ -10,7 +10,8 @@
 
 @interface Preference : NSObject
 
--(NSString *) getData;
--(void) setData : (NSString *)valueToSave;
+- (void)setValue:(id)value forKey:(NSString *)key;
+- (void)removeValueForKey:(NSString *)key;
+- (id)getValueForKey:(NSString *)key;
 
 @end
