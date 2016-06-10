@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "Preference"
   s.version      = "0.0.1"
-  s.summary      = "ARC and GCD Compatible Reachability Class for iOS and OS X."
+  s.summary      = "Access NSUserDefaults via user-defined functions "
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,9 +25,6 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                      A specification describes a version of Pod library. It includes details about where the
-                      source should be fetched from, what files to use, the build settings to apply, and other
-                      general metadata such as its name, version, and description.
                    DESC
 
   s.homepage     = "https://github.com/shivanivs/Preferences"
